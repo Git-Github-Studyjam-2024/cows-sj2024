@@ -1,1 +1,1 @@
-# cows-sj2024
+# Team: Cows
