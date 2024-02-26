@@ -8,6 +8,16 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+*,
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  scroll-margin: 250px;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -30,4 +40,20 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
