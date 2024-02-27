@@ -9,14 +9,14 @@ import AUDIO_FILE from "@/assets/audio/moo.mp3";
 const navbarLinks = [
   {
     target: "/",
-    name: "Trang chủ",
+    name: "Home",
   },
   {
-    name: "Về chúng tôi",
+    name: "About us",
     target: "/about",
   },
   {
-    name: "Liên hệ",
+    name: "Contact",
     target: "/contact",
   },
 ];
@@ -45,7 +45,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 "
           >
             {navbarLinks.map((item, index) => {
               return (
@@ -53,7 +53,7 @@ const Navbar = () => {
                   onClick={() => router.push(item.target)}
                   key={`navbar_links_${index}`}
                 >
-                  <a>{item.name}</a>
+                  <a className="text-gray-800">{item.name}</a>
                 </li>
               );
             })}
@@ -72,7 +72,7 @@ const Navbar = () => {
                 onClick={() => router.push(item.target)}
                 key={`navbar_links_${index}`}
               >
-                <a>{item.name}</a>
+                <a className="text-gray-800">{item.name}</a>
               </li>
             );
           })}
