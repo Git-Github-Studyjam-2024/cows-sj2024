@@ -5,7 +5,7 @@ import HCMUTE_LOGO from "@/assets/background/hcmute.png";
 import Image from "next/image";
 import { scrollToSection } from "@/utils/scrollBehavior";
 import { useRouter } from "next/navigation";
-
+import AUDIO_FILE from "@/assets/audio/moo.mp3";
 const navbarLinks = [
   {
     target: "/",
@@ -61,7 +61,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center  justify-center gap-4 text-xl">
           <Image className="" width="auto" height={50} src={GDSC_LOGO} />
-          <Image className="" width="auto" height={50} src={HCMUTE_LOGO} />
+          {/* <Image className="" width="auto" height={50} src={HCMUTE_LOGO} /> */}
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -78,7 +78,14 @@ const Navbar = () => {
           })}
         </ul>
       </div>
-      <div className="navbar-end">
+      <audio src={"moo.mp3"} className="hidden" controls id="audio-cow" />
+      <div
+        className="navbar-end"
+        onClick={() => {
+          let audioCow = document.getElementById("audio-cow");
+          audioCow.play();
+        }}
+      >
         <a className="btn text-[2em]">🐄</a>
       </div>
     </div>
