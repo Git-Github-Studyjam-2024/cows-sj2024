@@ -12,7 +12,7 @@ const Footer = () => {
       <nav>
         <p>
           <span className="italic">
-            📖 Learning is like a cow of desire. It, like her, yields in all
+            📚Learning is like a cow of desire. It, like her, yields in all
             seasons. <br />- Chanakya
           </span>
         </p>
