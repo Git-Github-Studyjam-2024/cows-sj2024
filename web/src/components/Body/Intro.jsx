@@ -60,7 +60,7 @@ const Intro = () => {
                   <div className="text-black text-4xl   italic ml-8 font-extrabold">
                     {name}
                   </div>
-                  <div className="text-white text-4xl capitalize ml-8 font-bold">
+                  <div className="text-white text-4xl capitalize ml-8 font-bold italic">
                     {nickname}
                   </div>
                 </div>
