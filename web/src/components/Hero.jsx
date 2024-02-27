@@ -3,11 +3,11 @@ import React from "react";
 import Avatar3 from "@/assets/background/gdsc.png";
 import Image from "next/image";
 import { scrollToSection } from "@/utils/scrollBehavior";
-
+import { IoMdFlower } from "react-icons/io";
 const Hero = () => {
   return (
     <div
-    id="section-hero"
+      id="section-hero"
       className="hero h-screen bg-base-200"
       // Set background image
     >
@@ -24,14 +24,13 @@ const Hero = () => {
             Git & GitHub Study Jam
           </h1>
           <p className="py-6 font-bold text-2xl">GDSC - HCMUTE 2024</p>
-
           <button
-            className="btn btn-primary"
+            className="btn font-bold text-2xl"
             onClick={() => {
               scrollToSection("section-slogan");
             }}
           >
-            Hello from COWS
+            <span>Hello from COWS</span>
           </button>
         </div>
       </div>
