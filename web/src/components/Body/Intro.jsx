@@ -45,7 +45,7 @@ const sloganItems = [
 
 const Intro = () => {
   return (
-    <div className="hero min-h-screen bg-white ">
+    <div className="hero min-h-screen bg-white mt-4">
       <div className="flex gap-2 flex-col relative w-full h-screen justify-between  gap-4">
         {sloganItems.map(
           ({ nickname, name, background, picture, text, icon }, index) => {
