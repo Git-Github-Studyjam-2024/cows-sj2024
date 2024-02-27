@@ -112,7 +112,7 @@ const OurTeam = () => {
               <div className="w-full lg:w-6/12 px-4">
                 <h1 className="text-blue-800 font-extrabold text-4xl mb-8">
                   <span className="bg-amber-50 border-[1px] p-4 rounded-full shadow-sm text-amber-300  hover:bg-amber-100">
-                    More about the Cows
+                    Team: COWS
                   </span>
                 </h1>
                 <p className="text-gray-700 text-lg font-bold">
