@@ -45,8 +45,8 @@ const sloganItems = [
 
 const Intro = () => {
   return (
-    <div className="hero min-h-screen bg-white ">
-      <div className="flex gap-2 flex-col relative py-16 w-full h-screen justify-between  gap-4">
+    <div className="hero min-h-screen bg-white mt-4">
+      <div className="flex gap-2 flex-col relative w-full h-screen justify-between  gap-4">
         {sloganItems.map(
           ({ nickname, name, background, picture, text, icon }, index) => {
             return (
@@ -54,13 +54,13 @@ const Intro = () => {
                 className={`${background} rounded-xl px-4 h-full flex relative overflow-hidden justify-between`}
               >
                 <div className="w-full ">
-                  <div className="w-full text-8xl italic opacity-[0.4] font-bold text-alpha-600">
+                  <div className="w-full text-6xl italic opacity-[0.4] font-bold text-alpha-600">
                     {text}
                   </div>
                   <div className="text-black text-4xl   italic ml-8 font-extrabold">
                     {name}
                   </div>
-                  <div className="text-white text-4xl capitalize ml-8 font-bold">
+                  <div className="text-white text-4xl capitalize ml-8 font-bold italic">
                     {nickname}
                   </div>
                 </div>
