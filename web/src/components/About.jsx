@@ -9,12 +9,12 @@ const persons = [
     img: AVATAR_3,
     name: "Dang Minh Nhat",
     title: "Delta cow", // ? = Alpha, Beta, Celta, Delta
-    background: "bg-Delta", // bg-alpha, bg-beta, bg-celta, bg-delta
+    background: "bg-delta", // bg-alpha, bg-beta, bg-celta, bg-delta
     description: 
     <>
     Hey hey hey, Stop here boy⛔
     <br/>
-    Thanks you!😇
+    Thank you!😇
     </>
     ,
     // use <br/> to new line
