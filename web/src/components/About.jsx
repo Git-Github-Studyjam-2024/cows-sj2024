@@ -5,10 +5,51 @@ import React from "react";
 import AVATAR_1 from "@/assets/team-avt/avatar-1.jpg";
 import AVATAR_2 from "@/assets/team-avt/avatar-2.jpg"; 
 import AVATAR_3 from "@/assets/team-avt/avatar-3.jpg";
-
+import AVATAR_4 from "@/assets/team-avt/avatar-4.jpg";
 import { FaFacebook, FaGithub, FaSquareFacebook } from "react-icons/fa6";
 
 const persons = [
+  {
+    img: AVATAR_3,
+    name: "Tran Cong Toan",
+    title: "Alpha cow",
+    background: "bg-alpha",
+    description: (
+      <>
+        Alpha is 19 years old 👦
+        <br />
+        He loves exploring the nature🍃,
+        <br />
+        coding cool stuff 👩‍💻,
+        <br />
+        reading various books 📚
+        <br />
+        and the Earth 🌏
+      </>
+    ),
+    social_medias: [
+      {
+        link: "https://www.facebook.com/tctoan1024",
+        icon: (
+          <>
+            <span>Facebook</span>
+            <FaSquareFacebook />
+          </>
+        ),
+        background: "btn-primary",
+      },
+      {
+        link: "https://github.com/toantc1024",
+        icon: (
+          <>
+            <span>Github</span>
+            <FaGithub />
+          </>
+        ),
+        background: "btn-base",
+      },
+    ],
+  },
   {
     img: AVATAR_1,
     name: "Lam Hoai Kim Ngan",
@@ -55,6 +96,35 @@ const persons = [
     ],
   },
   {
+    img: AVATAR_4,
+    name: "Dong Gia Sang",
+    title: "Celta", // ? = Alpha, Beta, Celta, Delta
+    background: "bg-celta", // bg-alpha, bg-beta, bg-celta, bg-delta
+    description: <>My name is Sang, i'm 19 years old.<br/>I'm a member of cows team with nickname is Celta.<br/>I truly like Artificial Intelligence <br/> so i'm learning about machine learning to improve my knowledge! </>, // use <br/> to new line
+    social_medias: [
+      {
+        link: "https://www.facebook.com/sinhvienamhai", // Your Facebook link
+        icon: (
+          <>
+            <span>Facebook</span>
+            <FaSquareFacebook />
+          </>
+        ),
+        background: "btn-primary",
+      },
+      {
+        link: "https://github.com/canoc1709", // Your Github link
+        icon: (
+          <>
+            <span>Github</span>
+            <FaGithub />
+          </>
+        ),
+        background: "btn-base",
+      },
+    ],
+  },
+  {
     img: AVATAR_2,
     name: "Dang Minh Nhat",
     title: "Delta cow", // ? = Alpha, Beta, Celta, Delta
@@ -80,47 +150,6 @@ const persons = [
       },
       {
         link: "https://github.com/MihnNathja", // Your Github link
-        icon: (
-          <>
-            <span>Github</span>
-            <FaGithub />
-          </>
-        ),
-        background: "btn-base",
-      },
-    ],
-  },
-  {
-    img: AVATAR_3,
-    name: "Tran Cong Toan",
-    title: "Alpha cow",
-    background: "bg-alpha",
-    description: (
-      <>
-        Alpha is 19 years old 👦
-        <br />
-        He loves exploring the nature🍃,
-        <br />
-        coding cool stuff 👩‍💻,
-        <br />
-        reading various books 📚
-        <br />
-        and the Earth 🌏
-      </>
-    ),
-    social_medias: [
-      {
-        link: "https://www.facebook.com/tctoan1024",
-        icon: (
-          <>
-            <span>Facebook</span>
-            <FaSquareFacebook />
-          </>
-        ),
-        background: "btn-primary",
-      },
-      {
-        link: "https://github.com/toantc1024",
         icon: (
           <>
             <span>Github</span>
