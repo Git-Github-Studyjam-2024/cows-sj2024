@@ -7,13 +7,29 @@ import { FaFacebook, FaGithub, FaSquareFacebook } from "react-icons/fa6";
 const persons = [
   {
     img: AVATAR_3,
-    name: "Name goes here",
-    title: "? cow", // ? = Alpha, Beta, Celta, Delta
-    background: "bg-alpha", // bg-alpha, bg-beta, bg-celta, bg-delta
-    description: <>X is y years old 👦</>, // use <br/> to new line
+    name: "Lam Hoai Kim Ngan",
+    title: "Beta cow", // ? = Alpha, Beta, Celta, Delta
+    background: "bg-beta", // bg-alpha, bg-beta, bg-celta, bg-delta
+    description: 
+    <>
+    Here's to Beta, 
+        <br />
+        The one who dream,🐛
+        <br />
+        The foolish as they may seem,
+        <br />
+        A mess maker loves to explore this world,🦋
+        <br />
+        A lovebird who loves art and random things,
+        <br />
+        A coder who's on track to become better and better,👩‍💻
+        <br />
+        A cow who loves to learn and share.🐄
+    </>, // use <br/> to new line
+
     social_medias: [
       {
-        link: "https://www.facebook.com", // Your Facebook link
+        link: "https://www.facebook.com/nganlam6924", // Your Facebook link
         icon: (
           <>
             <span>Facebook</span>
@@ -23,7 +39,7 @@ const persons = [
         background: "btn-primary",
       },
       {
-        link: "https://github.com", // Your Github link
+        link: "https://github.com/nganlam-vn", // Your Github link
         icon: (
           <>
             <span>Github</span>
