@@ -1,19 +1,26 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import AVATAR_3 from "@/assets/team-avt/avatar-1.jpg"; // IMPORT YOUR AVATAR HERE
+import AVATAR_3 from "@/assets/team-avt/avatar-2.jpg"; // IMPORT YOUR AVATAR HERE
 import { FaFacebook, FaGithub, FaSquareFacebook } from "react-icons/fa6";
 
 const persons = [
   {
     img: AVATAR_3,
-    name: "Name goes here",
-    title: "? cow", // ? = Alpha, Beta, Celta, Delta
-    background: "bg-alpha", // bg-alpha, bg-beta, bg-celta, bg-delta
-    description: <>X is y years old 👦</>, // use <br/> to new line
+    name: "Dang Minh Nhat",
+    title: "Delta cow", // ? = Alpha, Beta, Celta, Delta
+    background: "bg-Delta", // bg-alpha, bg-beta, bg-celta, bg-delta
+    description: 
+    <>
+    Hey hey hey, Stop here boy⛔
+    <br/>
+    Thanks you!😇
+    </>
+    ,
+    // use <br/> to new line
     social_medias: [
       {
-        link: "https://www.facebook.com", // Your Facebook link
+        link: "https://www.facebook.com/Mihn.Nathja/", // Your Facebook link
         icon: (
           <>
             <span>Facebook</span>
@@ -23,7 +30,7 @@ const persons = [
         background: "btn-primary",
       },
       {
-        link: "https://github.com", // Your Github link
+        link: "https://github.com/MihnNathja", // Your Github link
         icon: (
           <>
             <span>Github</span>
