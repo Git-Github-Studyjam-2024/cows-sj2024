@@ -63,7 +63,7 @@ const persons = [
     <>
     Hey hey hey, Stop here boy⛔
     <br/>
-    Thanks you!😇
+    Thank you!😇
     </>
     ,
     // use <br/> to new line
