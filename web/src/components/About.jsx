@@ -1,10 +1,56 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import AVATAR_1 from "@/assets/team-avt/avatar-1.jpg";
 import AVATAR_3 from "@/assets/team-avt/avatar-3.jpg";
 import { FaFacebook, FaGithub, FaSquareFacebook } from "react-icons/fa6";
 
 const persons = [
+  {
+    img: AVATAR_1,
+    name: "Lam Hoai Kim Ngan",
+    title: "Beta cow", // ? = Alpha, Beta, Celta, Delta
+    background: "bg-beta", // bg-alpha, bg-beta, bg-celta, bg-delta
+    description: (
+      <>
+        Here's to Beta,
+        <br />
+        The one who dream,🐛
+        <br />
+        The foolish as they may seem,
+        <br />
+        A mess maker loves to explore this world,🦋
+        <br />
+        A lovebird who loves art and random things,
+        <br />
+        A coder who's on track to become better and better,👩‍💻
+        <br />A cow who loves to learn and share.🐄
+      </>
+    ), // use <br/> to new line
+
+    social_medias: [
+      {
+        link: "https://www.facebook.com/nganlam6924", // Your Facebook link
+        icon: (
+          <>
+            <span>Facebook</span>
+            <FaSquareFacebook />
+          </>
+        ),
+        background: "btn-primary",
+      },
+      {
+        link: "https://github.com/nganlam-vn", // Your Github link
+        icon: (
+          <>
+            <span>Github</span>
+            <FaGithub />
+          </>
+        ),
+        background: "btn-base",
+      },
+    ],
+  },
   {
     img: AVATAR_3,
     name: "Tran Cong Toan",
