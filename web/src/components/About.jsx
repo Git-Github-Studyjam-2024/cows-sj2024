@@ -1,8 +1,11 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+
 import AVATAR_1 from "@/assets/team-avt/avatar-1.jpg";
+import AVATAR_2 from "@/assets/team-avt/avatar-2.jpg"; 
 import AVATAR_3 from "@/assets/team-avt/avatar-3.jpg";
+
 import { FaFacebook, FaGithub, FaSquareFacebook } from "react-icons/fa6";
 
 const persons = [
@@ -41,6 +44,42 @@ const persons = [
       },
       {
         link: "https://github.com/nganlam-vn", // Your Github link
+        icon: (
+          <>
+            <span>Github</span>
+            <FaGithub />
+          </>
+        ),
+        background: "btn-base",
+      },
+    ],
+  },
+  {
+    img: AVATAR_2,
+    name: "Dang Minh Nhat",
+    title: "Delta cow", // ? = Alpha, Beta, Celta, Delta
+    background: "bg-delta", // bg-alpha, bg-beta, bg-celta, bg-delta
+    description: 
+    <>
+    Hey hey hey, Stop here boy⛔
+    <br/>
+    Thank you!😇
+    </>
+    ,
+    // use <br/> to new line
+    social_medias: [
+      {
+        link: "https://www.facebook.com/Mihn.Nathja/", // Your Facebook link
+        icon: (
+          <>
+            <span>Facebook</span>
+            <FaSquareFacebook />
+          </>
+        ),
+        background: "btn-primary",
+      },
+      {
+        link: "https://github.com/MihnNathja", // Your Github link
         icon: (
           <>
             <span>Github</span>
