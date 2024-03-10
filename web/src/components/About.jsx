@@ -1,18 +1,19 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import AVATAR_3 from "@/assets/team-avt/avatar-1.jpg"; // IMPORT YOUR AVATAR HERE
+import AVATAR_1 from "@/assets/team-avt/avatar-1.jpg";
+import AVATAR_3 from "@/assets/team-avt/avatar-3.jpg";
 import { FaFacebook, FaGithub, FaSquareFacebook } from "react-icons/fa6";
 
 const persons = [
   {
-    img: AVATAR_3,
+    img: AVATAR_1,
     name: "Lam Hoai Kim Ngan",
     title: "Beta cow", // ? = Alpha, Beta, Celta, Delta
     background: "bg-beta", // bg-alpha, bg-beta, bg-celta, bg-delta
-    description: 
-    <>
-    Here's to Beta, 
+    description: (
+      <>
+        Here's to Beta,
         <br />
         The one who dream,🐛
         <br />
@@ -23,9 +24,9 @@ const persons = [
         A lovebird who loves art and random things,
         <br />
         A coder who's on track to become better and better,👩‍💻
-        <br />
-        A cow who loves to learn and share.🐄
-    </>, // use <br/> to new line
+        <br />A cow who loves to learn and share.🐄
+      </>
+    ), // use <br/> to new line
 
     social_medias: [
       {
@@ -40,6 +41,47 @@ const persons = [
       },
       {
         link: "https://github.com/nganlam-vn", // Your Github link
+        icon: (
+          <>
+            <span>Github</span>
+            <FaGithub />
+          </>
+        ),
+        background: "btn-base",
+      },
+    ],
+  },
+  {
+    img: AVATAR_3,
+    name: "Tran Cong Toan",
+    title: "Alpha cow",
+    background: "bg-alpha",
+    description: (
+      <>
+        Alpha is 19 years old 👦
+        <br />
+        He loves exploring the nature🍃,
+        <br />
+        coding cool stuff 👩‍💻,
+        <br />
+        reading various books 📚
+        <br />
+        and the Earth 🌏
+      </>
+    ),
+    social_medias: [
+      {
+        link: "https://www.facebook.com/tctoan1024",
+        icon: (
+          <>
+            <span>Facebook</span>
+            <FaSquareFacebook />
+          </>
+        ),
+        background: "btn-primary",
+      },
+      {
+        link: "https://github.com/toantc1024",
         icon: (
           <>
             <span>Github</span>
