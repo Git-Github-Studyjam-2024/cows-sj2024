@@ -8,7 +8,7 @@ const About = () => {
     <div className="hero min-h-screen bg-alpha">
     <div className="hero-content flex-col lg:flex-row-reverse">
       <div className="text-center lg:text-left">
-        <h1 className="text-5xl font-bold">Contact ✨</h1>
+        <h1 className="text-5xl font-bold">Contact 🐄</h1>
         <p className="py-6 text-3xl">Keep in touch with us to hear happy stories and nice monent everytime! <br/><span className="italic font-bold">Cows do love you!</span></p>
     </div>
     <div className="card shrink-0 w-full max-w-3xl shadow-2xl bg-beta">
